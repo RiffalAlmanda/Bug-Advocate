@@ -1,0 +1,36 @@
+Bg Classification
+
+-Bug Severity
+* Critical: Defect terjadi pada fungsi atau proses utama dan tidak ada solusi.
+* High: Defect terjadi pada fungsi proses utama, tetapi ada solusi lain untuk menjalankan fungsi utama.
+* Medium: Defect terjadi bukan pada fungsi atau proses utama.
+* Low: Defect tidak berdampak tetapi mengganggu.
+
+-Bug Priority
+* Prioritas 1 (High): Harus diperbaiki sebelum dirilis
+Prioritas 2 (Medium): Penting untuk diperbaiki, tetapi tidak akan menghentikan rilis
+* Prioritas 3 (Low): Bug dengan visibilitas rendah,yaitu, jarang di temukan oleh beberapa pengguna.
+
+ Perbandingan
+* Priority
+- Mendefinisikan urutan developer menyelesaikan bug
+- Berhubungan dengan scheduling
+- Mengindikasikan seberapa cepat bug harus diselesaikan
+- Ditentukan oleh management
+- Lebih subjektif dan mudah berubah
+
+Severity
+- Mendefinisikan impact dari defect terhadap opersional dari product (Business flow)
+- Berhubungan dengan fungsionalitas dan standar
+- Mengindikasikan seberapa serius defect terhadap fungsionalitas produk
+- Ditentukan oleh QA
+- Lebih objectif dan tidak berubah
+
+Bug Leakage
+- Bug Leakage: kebocoran bug terjadi ketika bug terdeteksi yang seharunya terdeteksi di build/versi aplikasi sebelumnya.
+Defect yang ada selama masa testing/develop namun tidak ditemukan ileh tester yang akhirnya ditemukan oleh pengguna akhir/user.
+
+Bug release (Known Bug)
+- Bug Release adalah ketika versi tertentu dirilis dengan sekumpulan bug/cacat yang telah diketahui
+- Bug ini biasanya memiliki tingkat severity yang rendah dan/atau bug dengan priority rendah
+- Hal ini dilakukan ketika bug masih bisa ditoleransi dan berjalan secara bisnis karena memangkas waktu/biaya, dikejar deadline maupun.Bug ini biasanya disebutkan dalam Release Notes
