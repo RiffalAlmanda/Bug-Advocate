@@ -1,0 +1,16 @@
+Bug Life Cycle
+-Bug Life Cycle (atau Siklus Hidup Bug) merujuk pada serangkaian tahapan yang dilalui oleh sebuah bug (atau cacat perangkat lunak) sejak pertama kali ditemukan hingga diperbaiki dan diuji kembali. Proses ini bertujuan untuk mengelola dan mengatasi bug dalam pengembangan perangkat lunak secara sistematis. Bug life cycle mencakup beberapa tahapan yang memungkinkan tim pengembang untuk melacak, mendiagnosis, dan memperbaiki masalah dalam perangkat lunak.
+
+* Verified: Penguji menguji ulang bug setelah diperaiki oleh pengembang. jika tidak ada bug yang terdeteksi dalam perangkat lunak, maka bug tersebut diperaiki dan status yang ditetapkan adalah " Verified"
+
+* Reopen: Jika bug tetap ada bahkan setelah pengembang memperbaiki bug, penguji mengubah status menjadi "reopen" Sekali lagi bug melewati siklus hidup
+
+* Clossed: Jika Bug tidak ada lagi, penguji menetapkan status "closed"
+
+* Duplicate: Jika cacat diulang dua kali atau cacat sesuai dengan konsep bug yang sama, statusnya diubah menjadi "Duplicate"
+
+Rejected: Jika pengembang merasa cacat itu bukan cacat asli, maka itu mengubah cacat menjadi :rejected"
+
+* Deffered: jika bug saat ini bukan merupakan prioritas utama dan jika diharapkan diperbaiki pada rilis berikutnya, maka status "Deffered" ditetapkan untuk bug tersebut
+
+* Not bug: Jika tidak mempengaruhi fungsionalitas aplikasi, maka status yang ditetapkan untuk bug adalah "Bukan bug"
