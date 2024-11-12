@@ -1,0 +1,41 @@
+Bug Reporting
+
+To report a bug well
+* Replicate It - Cobalah untuk melihat apakah anda dapat mereplikasi (membuat kembali) bug tersebut. Sinonim : repro/bug reproduce
+jika anda tidak dapat mereplikasi,mungkin akan lebih sulit unutk memberikan informasi kepada developer dan mempersuasinya untuk memperbaiki masalah yang tidak dapat dilihat olehnya.
+
+* Maximize It - Cobalah untuk melakukan langkah-langkah selanjutnya untuk  melihat apakah anda dapat memicu kegagalan yang lebih buruk.
+Bug yang anda temukan mungkin hanya puncak gunung es, atau gejala dari bug yang lebih besar. Tes lanjutan dapat membantu  mengungkap masalah yang lebih besar, jika memang ada.
+
+Maximize IT, Follow Up Step dapat dilakukan dengan berbagai cara :
+- Variasikan perilaku : Mencoba cara berbeda untuk melakukan tugas yang sama.
+- Variasikan opsi/setting : Mungkin ada pengaturan program yang dapat anda aktifkan atau nonaktifkan atau sesuaikan untuk pengujian browser, Anda dapat mencoba menyesuaikan ukuran zoom.
+- Variasikan data : Jika anda menyimpan/mengunggah file kecil, coba unggah file yang lebih besar dan amati.
+- Variasikan Environment : Variasikan OS/Browser yang digunakan.
+
+* Generalize It - Cobalah untuk memperluas cakupan bugnya
+Disini Anda mencoba mengungkap corner case, Memastikan bahwa bug telah dilaporkan dengan jelas, Mengecek bug untuk versi yangn lebih baru serta mengecek apakah bug tersebut tergantung pada environment, device setting/configuration tertentu.
+Externalize It - Cobalah untuk melihat nilai/dampak bug dari sudut pandang stakeholder lainya.
+Disini kita akan melihat sudut pandang diluar tester. Melihat sudut pandang user/ stakeholder/competitor sehingga memberikan justifikasi bagaimana bug itu terjadi dan mengapa bug tersebut perlu diselesaikan.
+
+Netral Tone - Usahakan agar la[oran bug kami mudah dipahami dan senetral mungkin ( say it clearly and dispassionately)
+Kejelasan akan memudahkan tim pengembang/triase untuk mengetahui apa dan  mengapa hal itu perlu diperbaiki. Laporan bug yang akan  membuat pekerjaan kita  lebih mudah dibaca dibandingkan dengan laporan yang bernada marah atau tidak sopan. Laporan yang bersifat antagonis akan menambah kesulita, menyebankan konflik dan mendiskreditkan reporter karena kurangnya profesionalisme.
+
+Bug Reporting Element
+* Bug ID
+* Problem
+* Environment
+* Data 
+* Actual Result
+* Step to Reproduce
+* Expected Result
+* Severity
+* Evidence
+
+Characterististic a good bug report
+Ada beberapa karakteristik dari bug report yang baik
+* Bug number harus jelas, supaya bisa ditelusuri dengan baik
+* Dapat di reproduce
+* Spesifik dan to the point
+* Menggunakan bahasa yang mudah dipahami
+
