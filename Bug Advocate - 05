@@ -1,0 +1,9 @@
+Bug Case Study
+ Bug case study adalah sebuah studi atau analisis mendalam mengenai sebuah bug (kesalahan atau cacat perangkat lunak) yang ditemukan dalam sebuah aplikasi atau sistem. Tujuan dari bug case study adalah untuk memahami penyebab, dampak, serta cara-cara untuk mengidentifikasi, memperbaiki, dan mencegah bug serupa di masa depan.
+
+- cek apakah kejadian tersebut terjadi berulang-ulang untuk step yang sama ( replicate it)
+- Cek apakah kejadian di setiap ukuran layar? (maximize It)
+- Isolasikan bug tersebut hanya untuk flow login (Isolate It)
+- Gunakan data yang lain, apakah kejadian (Maximize It)
+- Jika tidak ada di requiement seperti apa, bandingkan dengan competitor/aplikasi lain (External It)
+- Apakah kejadian untuk error message yang lain? (Generralize It)
